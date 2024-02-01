@@ -1,0 +1,20 @@
+{
+	"name": "@affinity-lab/class-meta-data",
+	"version": "0.0.4",
+	"author": "Affinity Lab",
+	"main": "dist/index",
+	"scripts": {
+		"build": "npx tsc && npm version patch --no-git-tag-version",
+		"prebuild": "rimraf ./dist"
+	},
+	"files": [
+		"./**/*"
+	],
+	"dependencies": {
+		"uni-flatten": "^1.5.5"
+	},
+	"devDependencies": {
+		"rimraf": "^5.0.5",
+		"typescript": "^5.2.2"
+	}
+}
